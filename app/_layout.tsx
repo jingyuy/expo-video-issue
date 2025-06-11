@@ -20,9 +20,7 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="video_bottomtabs" options={{ headerShown: false }} />
-        <Stack.Screen name="videoview_bottomtabs" options={{ headerShown: false }} />
-        <Stack.Screen name="video_toptabs" options={{ headerShown: false }} />
+        <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="videoview_toptabs" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
